@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Fractal Tree</title>
+</head>
+<body>
+  <div class="flex col center">
+    <div class="p">
+      <h2>Welcome to Fractal tree visualizer</h2>
+      <div class="flex col center">
+        <p>
+          Enter values and viualize the tree:
+        </p>
+        <label for="depth">Depth : </label>
+        <input type = "number" name="depth" id="depth" value="10"></br>
+        <label for="angle">Angle : </label>
+        <input type = "number" name="angle" id="angle" value="-90"></br>
+        <button id = "submit">Visualize</button>
+      </div>
+    </div>
+    <canvas id="fractal-tree"></canvas>
+  </div>
+  
+</body>
+<script src="./assets/js/main.js"></script>
+</html>
